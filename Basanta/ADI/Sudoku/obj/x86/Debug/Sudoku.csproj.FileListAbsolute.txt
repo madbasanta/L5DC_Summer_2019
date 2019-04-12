@@ -1,0 +1,60 @@
+F:\Games\Sudoku\Sudoku\bin\Debug\Sudoku.exe
+F:\Games\Sudoku\Sudoku\bin\Debug\Sudoku.pdb
+F:\Games\Sudoku\Sudoku\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Games\Sudoku\Sudoku\obj\x86\Debug\Sudoku.frm_High_Score.resources
+F:\Games\Sudoku\Sudoku\obj\x86\Debug\Sudoku.frm_Welcome.resources
+F:\Games\Sudoku\Sudoku\obj\x86\Debug\Sudoku.frm_Sudoku.resources
+F:\Games\Sudoku\Sudoku\obj\x86\Debug\Sudoku.frm_Main.resources
+F:\Games\Sudoku\Sudoku\obj\x86\Debug\Sudoku.frm_Instructions.resources
+F:\Games\Sudoku\Sudoku\obj\x86\Debug\Sudoku.frm_Level.resources
+F:\Games\Sudoku\Sudoku\obj\x86\Debug\Sudoku.Properties.Resources.resources
+F:\Games\Sudoku\Sudoku\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+F:\Games\Sudoku\Sudoku\obj\x86\Debug\GenerateResource-ResGen.read.4.tlog
+F:\Games\Sudoku\Sudoku\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+F:\Games\Sudoku\Sudoku\obj\x86\Debug\Sudoku.exe
+F:\Games\Sudoku\Sudoku\obj\x86\Debug\Sudoku.pdb
+D:\Sudoku\Sudoku\bin\Debug\Sudoku.exe.config
+D:\Sudoku\Sudoku\bin\Debug\Sudoku.exe
+D:\Sudoku\Sudoku\bin\Debug\Sudoku.pdb
+D:\Sudoku\Sudoku\obj\x86\Debug\Sudoku.csprojAssemblyReference.cache
+D:\Sudoku\Sudoku\obj\x86\Debug\Sudoku.frm_High_Score.resources
+D:\Sudoku\Sudoku\obj\x86\Debug\Sudoku.frm_Welcome.resources
+D:\Sudoku\Sudoku\obj\x86\Debug\Sudoku.frm_Sudoku.resources
+D:\Sudoku\Sudoku\obj\x86\Debug\Sudoku.frm_Main.resources
+D:\Sudoku\Sudoku\obj\x86\Debug\Sudoku.frm_Instructions.resources
+D:\Sudoku\Sudoku\obj\x86\Debug\Sudoku.frm_Level.resources
+D:\Sudoku\Sudoku\obj\x86\Debug\Sudoku.Properties.Resources.resources
+D:\Sudoku\Sudoku\obj\x86\Debug\Sudoku.csproj.GenerateResource.cache
+D:\Sudoku\Sudoku\obj\x86\Debug\Sudoku.csproj.CoreCompileInputs.cache
+D:\Sudoku\Sudoku\obj\x86\Debug\Sudoku.exe
+D:\Sudoku\Sudoku\obj\x86\Debug\Sudoku.pdb
+E:\ANJILA SUBEDI\Anjila assignment\Sudoku\Sudoku\bin\Debug\Sudoku.exe.config
+E:\ANJILA SUBEDI\Anjila assignment\Sudoku\Sudoku\bin\Debug\Sudoku.exe
+E:\ANJILA SUBEDI\Anjila assignment\Sudoku\Sudoku\bin\Debug\Sudoku.pdb
+E:\ANJILA SUBEDI\Anjila assignment\Sudoku\Sudoku\obj\x86\Debug\Sudoku.csprojAssemblyReference.cache
+E:\ANJILA SUBEDI\Anjila assignment\Sudoku\Sudoku\obj\x86\Debug\Sudoku.frm_High_Score.resources
+E:\ANJILA SUBEDI\Anjila assignment\Sudoku\Sudoku\obj\x86\Debug\Sudoku.frm_Welcome.resources
+E:\ANJILA SUBEDI\Anjila assignment\Sudoku\Sudoku\obj\x86\Debug\Sudoku.frm_Sudoku.resources
+E:\ANJILA SUBEDI\Anjila assignment\Sudoku\Sudoku\obj\x86\Debug\Sudoku.frm_Main.resources
+E:\ANJILA SUBEDI\Anjila assignment\Sudoku\Sudoku\obj\x86\Debug\Sudoku.frm_Instructions.resources
+E:\ANJILA SUBEDI\Anjila assignment\Sudoku\Sudoku\obj\x86\Debug\Sudoku.frm_Level.resources
+E:\ANJILA SUBEDI\Anjila assignment\Sudoku\Sudoku\obj\x86\Debug\Sudoku.Properties.Resources.resources
+E:\ANJILA SUBEDI\Anjila assignment\Sudoku\Sudoku\obj\x86\Debug\Sudoku.csproj.GenerateResource.cache
+E:\ANJILA SUBEDI\Anjila assignment\Sudoku\Sudoku\obj\x86\Debug\Sudoku.csproj.CoreCompileInputs.cache
+E:\ANJILA SUBEDI\Anjila assignment\Sudoku\Sudoku\obj\x86\Debug\Sudoku.exe
+E:\ANJILA SUBEDI\Anjila assignment\Sudoku\Sudoku\obj\x86\Debug\Sudoku.pdb
+E:\ANJILA SUBEDI\Anjila assignment\ADi\Sudoku\Sudoku\bin\Debug\Sudoku.exe.config
+E:\ANJILA SUBEDI\Anjila assignment\ADi\Sudoku\Sudoku\bin\Debug\Sudoku.exe
+E:\ANJILA SUBEDI\Anjila assignment\ADi\Sudoku\Sudoku\bin\Debug\Sudoku.pdb
+E:\ANJILA SUBEDI\Anjila assignment\ADi\Sudoku\Sudoku\obj\x86\Debug\Sudoku.csprojAssemblyReference.cache
+E:\ANJILA SUBEDI\Anjila assignment\ADi\Sudoku\Sudoku\obj\x86\Debug\Sudoku.frm_High_Score.resources
+E:\ANJILA SUBEDI\Anjila assignment\ADi\Sudoku\Sudoku\obj\x86\Debug\Sudoku.frm_Welcome.resources
+E:\ANJILA SUBEDI\Anjila assignment\ADi\Sudoku\Sudoku\obj\x86\Debug\Sudoku.frm_Sudoku.resources
+E:\ANJILA SUBEDI\Anjila assignment\ADi\Sudoku\Sudoku\obj\x86\Debug\Sudoku.frm_Main.resources
+E:\ANJILA SUBEDI\Anjila assignment\ADi\Sudoku\Sudoku\obj\x86\Debug\Sudoku.frm_Instructions.resources
+E:\ANJILA SUBEDI\Anjila assignment\ADi\Sudoku\Sudoku\obj\x86\Debug\Sudoku.frm_Level.resources
+E:\ANJILA SUBEDI\Anjila assignment\ADi\Sudoku\Sudoku\obj\x86\Debug\Sudoku.Properties.Resources.resources
+E:\ANJILA SUBEDI\Anjila assignment\ADi\Sudoku\Sudoku\obj\x86\Debug\Sudoku.csproj.GenerateResource.cache
+E:\ANJILA SUBEDI\Anjila assignment\ADi\Sudoku\Sudoku\obj\x86\Debug\Sudoku.csproj.CoreCompileInputs.cache
+E:\ANJILA SUBEDI\Anjila assignment\ADi\Sudoku\Sudoku\obj\x86\Debug\Sudoku.exe
+E:\ANJILA SUBEDI\Anjila assignment\ADi\Sudoku\Sudoku\obj\x86\Debug\Sudoku.pdb
