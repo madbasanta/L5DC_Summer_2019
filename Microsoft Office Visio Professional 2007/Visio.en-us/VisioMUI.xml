@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_SIG=4msXyBtho8aiiKhQsRnhS9KPtqgAjXWEVM1FWhCqtTezNYIFjeRFHZ8UVAglWCSrPnYmVIBzhcMQQS4BOoohNWUsFRP+EQm7wQfZslUL5rnAZ6nhZR3koJdvpWs0CbvwmWx8eQW7gsIv9hsiEdZHoIi1/ftGFwunOi6hE3A0cwg=-->
+<Package Id="VisioMUI.en-us" Type="MSI" Path="VisioMUI.MSI" Version="1.0" ProductCode="{90120000-0054-0409-0000-0000000FF1CE}" MSIVersion="12.0.4518.1014" Platform="x86">
+	<Feature Id="VisProcess_EngineeringIntl_1033" Cost="76600">
+		<OptionRef Id="VisEngineering"/>
+	</Feature>
+	<Feature Id="VisioCoreIntl_1033" Cost="2563877">
+		<OptionRef Id="VISIOFiles"/>
+	</Feature>
+	<Feature Id="VisMBorders_and_BackgroundsIntl_1033" Cost="1743872">
+		<OptionRef Id="VisMBorders_and_Backgrounds"/>
+	</Feature>
+	<Feature Id="VisMSoftware_DesignIntl_1033" Cost="4775424">
+		<OptionRef Id="VisMSoftwareDatabase"/>
+	</Feature>
+	<Feature Id="VisMFlowchartsIntl_1033" Cost="6156800">
+		<OptionRef Id="VisMFlowcharts"/>
+	</Feature>
+	<Feature Id="VisUSMapsIntl_1033" Cost="1107456">
+		<OptionRef Id="VisUSMapsFloorPlans"/>
+	</Feature>
+	<Feature Id="VisUSCallouts_and_ConnectorsIntl_1033" Cost="344576">
+		<OptionRef Id="VisUSCallouts_and_Connectors"/>
+	</Feature>
+	<Feature Id="VisMAnnotationsIntl_1033" Cost="667136">
+		<OptionRef Id="VisMAnnotations"/>
+	</Feature>
+	<Feature Id="VisUSDataVisualizationIntl_1033" Cost="308736">
+		<OptionRef Id="VisUSSolutions_PRO"/>
+	</Feature>
+	<Feature Id="VisMNetworkIntl_1033" Cost="2634752">
+		<OptionRef Id="VisMNetwork"/>
+	</Feature>
+	<Feature Id="VisioHelpIntl_1033" Cost="8941291">
+		<OptionRef Id="VisioHelp"/>
+	</Feature>
+	<Feature Id="VisMSymbolsIntl_1033" Cost="616960">
+		<OptionRef Id="VisMSymbols"/>
+	</Feature>
+	<Feature Id="VisUSBuilding_Plan_PROIntl_1033" Cost="6900736">
+		<OptionRef Id="VisUSMapsFloorPlans_PRO"/>
+	</Feature>
+	<Feature Id="VisMDrilldownIntl_1033" Cost="3340800">
+		<OptionRef Id="VisMBusiness_PRO"/>
+	</Feature>
+	<Feature Id="VisUSCustom_PatternsIntl_1033" Cost="276992">
+		<OptionRef Id="VisUSCustom_Patterns"/>
+	</Feature>
+	<Feature Id="VisUSBuilding_PlanIntl_1033" Cost="2753536">
+		<OptionRef Id="VisUSMapsFloorPlans"/>
+	</Feature>
+	<Feature Id="VisUSIconSetsIntl_1033" Cost="107008">
+		<OptionRef Id="VisUSSolutions_PRO"/>
+	</Feature>
+	<Feature Id="VisMBrainstormingIntl_1033" Cost="300544">
+		<OptionRef Id="VisMBusiness"/>
+	</Feature>
+	<Feature Id="VisUSForms_and_ChartsIntl_1033" Cost="3220480">
+		<OptionRef Id="VisUSBusiness"/>
+	</Feature>
+	<Feature Id="VisMDatabase_DesignIntl_1033" Cost="385024">
+		<OptionRef Id="VisMSoftwareDatabase"/>
+	</Feature>
+	<Feature Id="VisFlowchartsIntl_1033" Cost="42824">
+		<OptionRef Id="VisFlowcharts"/>
+	</Feature>
+	<Feature Id="VisUSNetwork_PROIntl_1033" Cost="4613632">
+		<OptionRef Id="VisUSNetwork_PRO"/>
+	</Feature>
+	<Feature Id="VisBrainstormingIntl_1033" Cost="38736">
+		<OptionRef Id="VisBusiness"/>
+	</Feature>
+	<Feature Id="VisSoftware_DesignIntl_1033" Cost="389449">
+		<OptionRef Id="VisSoftwareDatabase"/>
+	</Feature>
+	<Feature Id="VisMBlock_DiagramsIntl_1033" Cost="2385920">
+		<OptionRef Id="VisMGeneral"/>
+	</Feature>
+	<Feature Id="VisDatabase_DesignIntl_1033" Cost="1178928">
+		<OptionRef Id="VisSoftwareDatabase"/>
+	</Feature>
+	<Feature Id="VisUSFlowcharts_PROIntl_1033" Cost="997888">
+		<OptionRef Id="VisUSFlowcharts_PRO"/>
+	</Feature>
+	<Feature Id="VisUSProject_SchedulesIntl_1033" Cost="3360256">
+		<OptionRef Id="VisUSSchedules"/>
+	</Feature>
+	<Feature Id="VisUSElectricalEngineeringIntl_1033" Cost="2561024">
+		<OptionRef Id="VisUSEngineering"/>
+	</Feature>
+	<Feature Id="VisUSFlowchartsIntl_1033" Cost="6001152">
+		<OptionRef Id="VisUSFlowcharts"/>
+	</Feature>
+	<Feature Id="VISIOProOnlyNonBootFilesIntl_1033" Cost="710552">
+		<OptionRef Id="VISIOFiles"/>
+	</Feature>
+	<Feature Id="VisUSBrainstormingIntl_1033" Cost="297984">
+		<OptionRef Id="VisUSBusiness"/>
+	</Feature>
+	<Feature Id="VisMInternet_DiagramsIntl_1033" Cost="1523200">
+		<OptionRef Id="VisMNetwork_PRO"/>
+	</Feature>
+	<Feature Id="VisUSBlock_DiagramsIntl_1033" Cost="2283520">
+		<OptionRef Id="VisUSGeneral"/>
+	</Feature>
+	<Feature Id="SetupControllerFiles" Cost="18314">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="VisMCustom_PatternsIntl_1033" Cost="277504">
+		<OptionRef Id="VisMCustom_Patterns"/>
+	</Feature>
+	<Feature Id="VisioHelp_PROIntl_1033" Cost="3366284">
+		<OptionRef Id="VisioHelp_PRO"/>
+	</Feature>
+	<Feature Id="VisMDataVisualizationIntl_1033" Cost="313856">
+		<OptionRef Id="VisMSolutions_PRO"/>
+	</Feature>
+	<Feature Id="VisUSSampleDrawingsIntl_1033" Cost="3121664">
+		<OptionRef Id="VisUSSolutions_PRO"/>
+	</Feature>
+	<Feature Id="VisMProcess_EngineeringIntl_1033" Cost="1475072">
+		<OptionRef Id="VisMEngineering"/>
+	</Feature>
+	<Feature Id="VisMBuilding_Plan_PROIntl_1033" Cost="7078912">
+		<OptionRef Id="VisMMapsFloorPlans_PRO"/>
+	</Feature>
+	<Feature Id="VisUSAnnotationsIntl_1033" Cost="832000">
+		<OptionRef Id="VisUSAnnotations"/>
+	</Feature>
+	<Feature Id="VisMForms_and_ChartsIntl_1033" Cost="3380736">
+		<OptionRef Id="VisMBusiness"/>
+	</Feature>
+	<Feature Id="VisUSProcess_EngineeringIntl_1033" Cost="1447424">
+		<OptionRef Id="VisUSEngineering"/>
+	</Feature>
+	<Feature Id="VisMNetwork_PROIntl_1033" Cost="4663296">
+		<OptionRef Id="VisMNetwork_PRO"/>
+	</Feature>
+	<Feature Id="VisUSNetworkIntl_1033" Cost="2547200">
+		<OptionRef Id="VisUSNetwork"/>
+	</Feature>
+	<Feature Id="Gimme_OnDemandData" Cost="0">
+		<OptionRef Id="Gimme_OnDemandData"/>
+	</Feature>
+	<Feature Id="VisUSMechanical_EngineeringIntl_1033" Cost="2613760">
+		<OptionRef Id="VisUSEngineering"/>
+	</Feature>
+	<Feature Id="VisMSampleDrawingsIntl_1033" Cost="3159552">
+		<OptionRef Id="VisMSolutions_PRO"/>
+	</Feature>
+	<Feature Id="VisMCallouts_and_ConnectorsIntl_1033" Cost="367616">
+		<OptionRef Id="VisMCallouts_and_Connectors"/>
+	</Feature>
+	<Feature Id="VisUSDatabase_DesignIntl_1033" Cost="381440">
+		<OptionRef Id="VisUSSoftwareDatabase"/>
+	</Feature>
+	<Feature Id="MsoInstalledPackagesScopedIntl_1033" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="VisInternet_DiagramsIntl_1033" Cost="61248">
+		<OptionRef Id="VisNetwork_PRO"/>
+	</Feature>
+	<Feature Id="VisUSInternet_DiagramsIntl_1033" Cost="1484288">
+		<OptionRef Id="VisUSNetwork_PRO"/>
+	</Feature>
+	<Feature Id="VisMElectricalEngineeringIntl_1033" Cost="2638336">
+		<OptionRef Id="VisMEngineering"/>
+	</Feature>
+	<Feature Id="VisUSBorders_and_BackgroundsIntl_1033" Cost="1674752">
+		<OptionRef Id="VisUSBorders_and_Backgrounds"/>
+	</Feature>
+	<Feature Id="VisUSCAD_Drawing_DisplayIntl_1033" Cost="850033">
+		<OptionRef Id="VisUSCAD_Drawing_Display"/>
+	</Feature>
+	<Feature Id="VisMProject_SchedulesIntl_1033" Cost="3448832">
+		<OptionRef Id="VisMSchedules"/>
+	</Feature>
+	<Feature Id="VisSampleDataFilesIntl_1033" Cost="89088">
+		<OptionRef Id="VISIOFiles_PRO"/>
+	</Feature>
+	<Feature Id="VisMOrganization_ChartsIntl_1033" Cost="1957888">
+		<OptionRef Id="VisMBusiness"/>
+	</Feature>
+	<Feature Id="VisBuilding_Plan_PROIntl_1033" Cost="144264">
+		<OptionRef Id="VisMapsFloorPlans_PRO"/>
+	</Feature>
+	<Feature Id="SetupXmlFiles" Cost="18314">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="VisMMapsIntl_1033" Cost="1273344">
+		<OptionRef Id="VisMMapsFloorPlans"/>
+	</Feature>
+	<Feature Id="VisMIconSetsIntl_1033" Cost="109056">
+		<OptionRef Id="VisMSolutions_PRO"/>
+	</Feature>
+	<Feature Id="VisUSDrilldownIntl_1033" Cost="3310080">
+		<OptionRef Id="VisUSBusiness_PRO"/>
+	</Feature>
+	<Feature Id="VisCAD_Drawing_DisplayIntl_1033" Cost="49208">
+		<OptionRef Id="VisCAD_Drawing_Display"/>
+	</Feature>
+	<Feature Id="VisMFlowcharts_PROIntl_1033" Cost="1014784">
+		<OptionRef Id="VisMFlowcharts_PRO"/>
+	</Feature>
+	<Feature Id="VisUSSoftware_DesignIntl_1033" Cost="4673536">
+		<OptionRef Id="VisUSSoftwareDatabase"/>
+	</Feature>
+	<Feature Id="VisOrganization_ChartsIntl_1033" Cost="114384">
+		<OptionRef Id="VisBusiness"/>
+	</Feature>
+	<Feature Id="VisDrilldownIntl_1033" Cost="99424">
+		<OptionRef Id="VisBusiness_PRO"/>
+	</Feature>
+	<Feature Id="VisMCAD_Drawing_DisplayIntl_1033" Cost="880610">
+		<OptionRef Id="VisMCAD_Drawing_Display"/>
+	</Feature>
+	<Feature Id="VisMBuilding_PlanIntl_1033" Cost="2592256">
+		<OptionRef Id="VisMMapsFloorPlans"/>
+	</Feature>
+	<Feature Id="VisBuilding_PlanIntl_1033" Cost="73328">
+		<OptionRef Id="VisMapsFloorPlans"/>
+	</Feature>
+	<Feature Id="VisMMechanical_EngineeringIntl_1033" Cost="2573312">
+		<OptionRef Id="VisMEngineering"/>
+	</Feature>
+	<Feature Id="VisProject_SchedulesIntl_1033" Cost="604040">
+		<OptionRef Id="VisSchedules"/>
+	</Feature>
+	<Feature Id="VisUSOrganization_ChartsIntl_1033" Cost="1884160">
+		<OptionRef Id="VisUSBusiness"/>
+	</Feature>
+	<Feature Id="VisUSSymbolsIntl_1033" Cost="588288">
+		<OptionRef Id="VisUSSymbols"/>
+	</Feature>
+</Package>

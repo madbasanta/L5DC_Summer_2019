@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_SIG=/G2WUUYjixABauL0VmcXEWB/3kNAI07bpsdpaFQ7vtbe5dyQZxRDDAi4uNl5hEFin5LTUNSChy0e7Y8guAgM3un8Qn4ImR4ya+f7Eee6GTg6P3W8kiy8zjc5tWy2kn5iXcyxFS/z7drhcgrnLKHgF2s8eOY6XzBnam1BGbeayjc=-->
+<Setup Id="Office64.en-us" Type="AddOn" Keyword="Office64MUI" Culture="en-us">
+	<Option Id="AlwaysInstalled" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="Gimme_OnDemandData" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="ProductFiles" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="no">
+		<Option Id="TOOLSFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+	</Option>
+	<PackageRef Path="Office64MUISet.xml"/>
+	<PackageRef Path="Office64MUI.xml"/>
+	<LocalCache DownloadCode="{90120000-0116-0409-1000-0000000FF1CE}" SkuComponentDirectory="Office64.en-us">
+		<File Id="Office64MUISet.xml" MD5="B256B21850C30C838D9ED3C77C687BB4" Size="825" RelativeCachePath="Office64MUISet.xml" RelativeSourcePath="Office64MUISet.xml"/>
+		<File Id="Office64MUISet.msi" MD5="5E566B9C302FB20A7D89677F75274205" Size="502272" RelativeCachePath="Office64MUISet.msi" RelativeSourcePath="Office64MUISet.msi"/>
+		<File Id="Office64MUI.xml" MD5="58CF77C8CE94A728BF2B2D5BE7287122" Size="1033" RelativeCachePath="Office64MUI.xml" RelativeSourcePath="Office64MUI.xml"/>
+		<File Id="Office64MUI.msi" MD5="0AB90BB66484DDE6EE684AA1023E609A" Size="503296" RelativeCachePath="Office64MUI.msi" RelativeSourcePath="Office64MUI.msi"/>
+		<File Id="OWOW64LR.cab" MD5="E8D50BFDE2C3B63138B6EEA91F52585B" Size="7266" RelativeCachePath="OWOW64LR.cab" RelativeSourcePath="OWOW64LR.cab"/>
+		<File Id="Setup.xml" MD5="" Size="" RelativeCachePath="Setup.xml" RelativeSourcePath="Setup.xml"/>
+	</LocalCache>
+</Setup>

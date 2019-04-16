@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_SIG=JYJyjKlizoiuwXk9oJYEfP22Y3eHQTltM3VPR0i/cBi5IPOJK9Gew8rC6okwrJM5M8eFlktlg9yLzFuHpl+3ETO0oLNzldzeer9R/oA+GI9gga2FF0Sg1+m0/idc1A7doJu8N/Ti98oBV0YUkBAgtNyBLmej/SObU4YpqKxd9F0=-->
+<Package Id="VisProWW" Type="MSI" Path="VisProWW.MSI" Version="1.0" ProductCode="{90120000-0051-0000-0000-0000000FF1CE}" MSIVersion="12.0.4518.1014" Platform="x86" LocalizationTransform="ShellUI">
+	<Feature Id="Software_Design_Unitless" Cost="4214992">
+		<OptionRef Id="Software_Design_Unitless"/>
+	</Feature>
+	<Feature Id="OfficeAppSupport" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="DocumentImagingUtils" Cost="7540180">
+		<OptionRef Id="DocumentImagingUtils"/>
+	</Feature>
+	<Feature Id="Organization_Charts_Unitless" Cost="1779160">
+		<OptionRef Id="Organization_Charts_Unitless"/>
+	</Feature>
+	<Feature Id="ProductFiles_B2TR" Cost="6761390">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="RefIEBarFiles" Cost="52372">
+		<OptionRef Id="RefIEBarFiles"/>
+	</Feature>
+	<Feature Id="Addons_Unitless" Cost="0">
+		<OptionRef Id="VISIOFiles"/>
+	</Feature>
+	<Feature Id="AceRepl" Cost="877112">
+		<OptionRef Id="AceRepl"/>
+	</Feature>
+	<Feature Id="CAGCat10Clips" Cost="1813386">
+		<OptionRef Id="CAGCat10Clips"/>
+	</Feature>
+	<Feature Id="VISIOFiles" Cost="1476">
+		<OptionRef Id="VISIOFiles"/>
+	</Feature>
+	<Feature Id="WebDriveFiles" Cost="43894">
+		<OptionRef Id="WebDriveFiles"/>
+	</Feature>
+	<Feature Id="Office10Fix1" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="VisUSSoftware_Design_Umlvc60cuWXM" Cost="0">
+		<OptionRef Id="VISIOFiles_PRO"/>
+	</Feature>
+	<Feature Id="dummy_MSCOMCTL_PIA" Cost="16533504">
+		<OptionRef Id="dummy_MSCOMCTL_PIA"/>
+	</Feature>
+	<Feature Id="VisioCore" Cost="27717208">
+		<OptionRef Id="VISIOFiles"/>
+	</Feature>
+	<Feature Id="OISFiles" Cost="2157156">
+		<OptionRef Id="OISFiles"/>
+	</Feature>
+	<Feature Id="OfficeMSProof6" Cost="2240144">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="Mso_Hlp95enDll" Cost="15680">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="ProofingParent" Cost="576320">
+		<OptionRef Id="ProofingTools"/>
+	</Feature>
+	<Feature Id="SetupExeArpEntry" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="Ace_PIA" Cost="80696">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="Gimme_OnDemandData" Cost="0">
+		<OptionRef Id="Gimme_OnDemandData"/>
+	</Feature>
+	<Feature Id="Flowcharts_Unitless" Cost="421688">
+		<OptionRef Id="Flowcharts_Unitless"/>
+	</Feature>
+	<Feature Id="CAGFiles" Cost="2449304">
+		<OptionRef Id="CAGFiles"/>
+	</Feature>
+	<Feature Id="TextConverters" Cost="117552">
+		<OptionRef Id="TextConverters"/>
+	</Feature>
+	<Feature Id="Visio_Drilldown_Unitless" Cost="1070672">
+		<OptionRef Id="Visio_Drilldown_Unitless"/>
+	</Feature>
+	<Feature Id="Project_Schedules_Unitless" Cost="2466352">
+		<OptionRef Id="Project_Schedules_Unitless"/>
+	</Feature>
+	<Feature Id="OfficeIntlRDC" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="OfficeOLESupport" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="OfficeCoreRDC" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="AceFiles" Cost="7388096">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="SetupExeAddRegistry" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="WebDiscussFiles" Cost="1166875">
+		<OptionRef Id="WebDiscussFiles"/>
+	</Feature>
+	<Feature Id="SetupXmlFiles" Cost="23173">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="SetLanguageFiles" Cost="34104">
+		<OptionRef Id="SetLanguageFiles"/>
+	</Feature>
+	<Feature Id="VisMSoftware_Design_Umlvc60cuWXM" Cost="0">
+		<OptionRef Id="VISIOFiles_PRO"/>
+	</Feature>
+	<Feature Id="CAGCategoryFiles" Cost="0">
+		<OptionRef Id="CAGCategoryFiles"/>
+	</Feature>
+	<Feature Id="CAGCat10" Cost="394200">
+		<OptionRef Id="CAGCat10"/>
+	</Feature>
+	<Feature Id="AceOdbc" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="MsoInstalledPackagesScoped" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="Visio_PIA" Cost="1527134">
+		<OptionRef Id="Visio_PIA"/>
+	</Feature>
+	<Feature Id="Database_Design_Unitless" Cost="8852744">
+		<OptionRef Id="Database_Design_Unitless"/>
+	</Feature>
+	<Feature Id="MsoCommonShellHandler" Cost="932688">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="OfficePostBoot" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="Internet_Diagrams_Unitless" Cost="727872">
+		<OptionRef Id="Internet_Diagrams_Unitless"/>
+	</Feature>
+	<Feature Id="InternationalSupportFiles_ArialUni" Cost="23275812">
+		<OptionRef Id="InternationalSupportFiles_ArialUni"/>
+	</Feature>
+	<Feature Id="CAD_Drawing_Display_Unitless" Cost="6420104">
+		<OptionRef Id="CAD_Drawing_Display_Unitless"/>
+	</Feature>
+	<Feature Id="AlwaysInstalled" Cost="959660">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="TCWorks7Files" Cost="4672872">
+		<OptionRef Id="TCWorks7Files"/>
+	</Feature>
+	<Feature Id="dummy_Office_PIA" Cost="16810314">
+		<OptionRef Id="dummy_Office_PIA"/>
+	</Feature>
+	<Feature Id="MSOfficeDocumentImaging" Cost="1959072">
+		<OptionRef Id="MSOfficeDocumentImaging"/>
+	</Feature>
+	<Feature Id="Process_Engineering_Unitless" Cost="570664">
+		<OptionRef Id="Process_Engineering_Unitless"/>
+	</Feature>
+	<Feature Id="VisioHelp" Cost="0">
+		<OptionRef Id="VisioHelp"/>
+	</Feature>
+	<Feature Id="Visio_Data_Visualization_Unitless" Cost="0">
+		<OptionRef Id="Visio_Data_Visualization_Unitless"/>
+	</Feature>
+	<Feature Id="CAGOffice10" Cost="492624">
+		<OptionRef Id="CAGOffice10"/>
+	</Feature>
+	<Feature Id="GraphicsFiltersFile" Cost="0">
+		<OptionRef Id="GraphicsFiltersFile"/>
+	</Feature>
+	<Feature Id="DCubeHidden" Cost="1540368">
+		<OptionRef Id="DCubeHidden"/>
+	</Feature>
+	<Feature Id="SetupControllerFiles" Cost="7279517">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="VISIOProOnlyNonBootFiles" Cost="35349023">
+		<OptionRef Id="VISIOFiles"/>
+	</Feature>
+	<Feature Id="Building_Plan_PRO_Unitless" Cost="1965448">
+		<OptionRef Id="Building_Plan_PRO_Unitless"/>
+	</Feature>
+	<Feature Id="CARegistryFeature" Cost="0">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="VBAFiles" Cost="2796736">
+		<OptionRef Id="VBAFiles"/>
+	</Feature>
+	<Feature Id="MSPPRTDRIVER" Cost="919744">
+		<OptionRef Id="MSPPRTDRIVER"/>
+	</Feature>
+	<Feature Id="IMNFiles" Cost="65824">
+		<OptionRef Id="SHAREDFiles"/>
+	</Feature>
+	<Feature Id="MSSOAP3" Cost="628856">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="DocServicesFiles" Cost="125600">
+		<OptionRef Id="DocServicesFiles"/>
+	</Feature>
+	<Feature Id="ProductFiles" Cost="55521674">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="Brainstorming_Unitless" Cost="601757">
+		<OptionRef Id="Brainstorming_Unitless"/>
+	</Feature>
+	<Feature Id="TCDRegistration" Cost="0">
+		<OptionRef Id="TCDRegistration"/>
+	</Feature>
+	<Feature Id="Visio_Core_Content_Unitless" Cost="0">
+		<OptionRef Id="Visio_Core_Content_Unitless"/>
+	</Feature>
+	<Feature Id="TranslationCore" Cost="211616">
+		<OptionRef Id="TranslationCore"/>
+	</Feature>
+	<Feature Id="OSetupController" Cost="7256344">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="Building_Plan_Unitless" Cost="913720">
+		<OptionRef Id="Building_Plan_Unitless"/>
+	</Feature>
+	<Feature Id="ClviewFiles" Cost="381360">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="VISIONonBootFiles" Cost="0">
+		<OptionRef Id="VISIOFiles"/>
+	</Feature>
+	<Feature Id="OArt_DocTheme" Cost="3107541">
+		<OptionRef Id="OArt_DocTheme"/>
+	</Feature>
+	<Feature Id="Forms_PIA" Cost="371496">
+		<OptionRef Id="Forms_PIA"/>
+	</Feature>
+	<Feature Id="WISPFiles" Cost="2165248">
+		<OptionRef Id="WISPFiles"/>
+	</Feature>
+	<Feature Id="OfficeDigitalSFiles" Cost="503624">
+		<OptionRef Id="OfficeDigitalSFiles"/>
+	</Feature>
+	<Feature Id="VSCommonPIAHidden" Cost="16381376">
+		<OptionRef Id="VSCommonPIAHidden"/>
+	</Feature>
+	<Feature Id="ProductNonBootFiles" Cost="33354308">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="WISPHidden" Cost="2165248">
+		<OptionRef Id="WISPHidden"/>
+	</Feature>
+	<Feature Id="InternationalSupportFiles_JPN" Cost="165248">
+		<OptionRef Id="InternationalSupportFiles_JPN"/>
+	</Feature>
+	<Feature Id="OsaNonBoot" Cost="102200">
+		<OptionRef Id="OsaNonBoot"/>
+	</Feature>
+	<Feature Id="MsInfoFiles" Cost="180728">
+		<OptionRef Id="MsInfoFiles"/>
+	</Feature>
+	<Feature Id="CAGOffice10Clips" Cost="452220">
+		<OptionRef Id="CAGOffice10Clips"/>
+	</Feature>
+</Package>

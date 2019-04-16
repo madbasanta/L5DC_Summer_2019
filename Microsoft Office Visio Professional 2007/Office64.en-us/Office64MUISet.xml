@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_SIG=5qvMEyYWaagPA0qH0FXjNZO3UDpn4yy+79adP68sCVeG2Og+Ctyt+6hamcDJi0UmnuaV4/4iBPIaGex03GTD2M7hFWsK+v0UZWLE5AG3Ji2jd+KfFROjXGUs6gyT3AEeGXVxkhJJJ/RjcvCjYJcmNexIfQBsZoj5ZZKzEcn/xzE=-->
+<Package Id="Office64MUISet.en-us" Type="MSI" Path="Office64MUISet.MSI" Version="1.0" ProductCode="{90120000-0116-0409-1000-0000000FF1CE}" MSIVersion="12.0.4518.1014" Platform="x64">
+	<Feature Id="Gimme_OnDemandData" Cost="0">
+		<OptionRef Id="Gimme_OnDemandData"/>
+	</Feature>
+	<Feature Id="SetupXmlFiles" Cost="1021">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="SetupControllerFiles" Cost="1021">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="MsoInstalledPackagesScopedIntl_1033" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+</Package>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_SIG=ZFjYapZU0BT9H8G4V4HS7VrpF7rZjgofYwrTJcwRe3ZP+WHtpHYX1vpkJhF75dgvQqN0Bn3uXSKt05ON8PweV7wovaChE1gO2rxyqzjM1x/7Xpl0hRdFQs6ok+o5CyTMQDNr019ohSOf09Y6vGmX2n/5D2MmmPPPpEpFDvjI5IU=-->
+<Setup Id="Visio.en-us" Type="AddOn" Keyword="VisioMUI" Culture="en-us">
+	<Option Id="AlwaysInstalled" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="Gimme_OnDemandData" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="ProductFiles" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="no">
+		<Option Id="VISIOFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+			<Option Id="VisMAddons" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+				<Option Id="VisMAnnotations" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no" PreReq="IsVisPro;IsVisPror;IsMondo"/>
+				<Option Id="VisMBorders_and_Backgrounds" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisMCAD_Drawing_Display" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisMCallouts_and_Connectors" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisMCustom_Patterns" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no" PreReq="IsVisPro;IsVisPror;IsMondo"/>
+				<Option Id="VisMSymbols" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+			</Option>
+			<Option Id="VisMSolutions" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+				<Option Id="VisMBusiness" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+					<Option Id="VisMBusiness_PRO" DefaultState="FollowParent" DisallowAbsent="no" DisallowAdvertise="no" PreReq="IsVisPro;IsVisPror;IsMondo"/>
+				</Option>
+				<Option Id="VisMEngineering" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no" PreReq="IsVisPro;IsVisPror;IsMondo"/>
+				<Option Id="VisMFlowcharts" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+					<Option Id="VisMFlowcharts_PRO" DefaultState="FollowParent" DisallowAbsent="no" DisallowAdvertise="no" PreReq="IsVisPro;IsVisPror;IsMondo"/>
+				</Option>
+				<Option Id="VisMGeneral" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisMMapsFloorPlans" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+					<Option Id="VisMMapsFloorPlans_PRO" DefaultState="FollowParent" DisallowAbsent="no" DisallowAdvertise="no" PreReq="IsVisPro;IsVisPror;IsMondo"/>
+				</Option>
+				<Option Id="VisMNetwork" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+					<Option Id="VisMNetwork_PRO" DefaultState="FollowParent" DisallowAbsent="no" DisallowAdvertise="no" PreReq="IsVisPro;IsVisPror;IsMondo"/>
+				</Option>
+				<Option Id="VisMSchedules" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisMSoftwareDatabase" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no" PreReq="IsVisPro;IsVisPror;IsMondo"/>
+				<Option Id="VisMSolutions_PRO" DefaultState="FollowParent" DisallowAbsent="no" DisallowAdvertise="no" PreReq="IsVisPro;IsVisPror;IsMondo" Hidden="yes"/>
+			</Option>
+			<Option Id="VisUSAddons" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+				<Option Id="VisUSAnnotations" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no" PreReq="IsVisPro;IsVisPror;IsMondo"/>
+				<Option Id="VisUSBorders_and_Backgrounds" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisUSCAD_Drawing_Display" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisUSCallouts_and_Connectors" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisUSCustom_Patterns" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no" PreReq="IsVisPro;IsVisPror;IsMondo"/>
+				<Option Id="VisUSSymbols" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+			</Option>
+			<Option Id="VisUSSolutions" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+				<Option Id="VisUSBusiness" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+					<Option Id="VisUSBusiness_PRO" DefaultState="FollowParent" DisallowAbsent="no" DisallowAdvertise="no" PreReq="IsVisPro;IsVisPror;IsMondo"/>
+				</Option>
+				<Option Id="VisUSEngineering" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no" PreReq="IsVisPro;IsVisPror;IsMondo"/>
+				<Option Id="VisUSFlowcharts" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+					<Option Id="VisUSFlowcharts_PRO" DefaultState="FollowParent" DisallowAbsent="no" DisallowAdvertise="no" PreReq="IsVisPro;IsVisPror;IsMondo"/>
+				</Option>
+				<Option Id="VisUSGeneral" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisUSMapsFloorPlans" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+					<Option Id="VisUSMapsFloorPlans_PRO" DefaultState="FollowParent" DisallowAbsent="no" DisallowAdvertise="no" PreReq="IsVisPro;IsVisPror;IsMondo"/>
+				</Option>
+				<Option Id="VisUSNetwork" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+					<Option Id="VisUSNetwork_PRO" DefaultState="FollowParent" DisallowAbsent="no" DisallowAdvertise="no" PreReq="IsVisPro;IsVisPror;IsMondo"/>
+				</Option>
+				<Option Id="VisUSSchedules" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisUSSoftwareDatabase" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no" PreReq="IsVisPro;IsVisPror;IsMondo"/>
+				<Option Id="VisUSSolutions_PRO" DefaultState="FollowParent" DisallowAbsent="no" DisallowAdvertise="no" PreReq="IsVisPro;IsVisPror;IsMondo" Hidden="yes"/>
+			</Option>
+			<Option Id="VisioHelp" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="no" Hidden="yes">
+				<Option Id="VisioHelp_PRO" DefaultState="FollowParent" DisallowAbsent="yes" DisallowAdvertise="no" PreReq="IsVisPro;IsVisPror;IsMondo" Hidden="yes"/>
+			</Option>
+			<Option Id="VISIOFiles_PRO" DefaultState="FollowParent" DisallowAbsent="no" DisallowAdvertise="no" PreReq="IsVisPro;IsVisPror;IsMondo" Hidden="yes"/>
+			<Option Id="VisBusiness" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VisMBusiness"/>
+				<OptionDependency Lead="VisUSBusiness"/>
+			</Option>
+			<Option Id="VisBusiness_PRO" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VisMBusiness_PRO"/>
+				<OptionDependency Lead="VisUSBusiness_PRO"/>
+			</Option>
+			<Option Id="VisCAD_Drawing_Display" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VisMCAD_Drawing_Display"/>
+				<OptionDependency Lead="VisUSCAD_Drawing_Display"/>
+			</Option>
+			<Option Id="VisEngineering" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VisMEngineering"/>
+				<OptionDependency Lead="VisUSEngineering"/>
+			</Option>
+			<Option Id="VisFlowcharts" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VisMFlowcharts"/>
+				<OptionDependency Lead="VisUSFlowcharts"/>
+			</Option>
+			<Option Id="VisMapsFloorPlans_PRO" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VisMMapsFloorPlans_PRO"/>
+				<OptionDependency Lead="VisUSMapsFloorPlans_PRO"/>
+			</Option>
+			<Option Id="VisMapsFloorPlans" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VisMMapsFloorPlans"/>
+				<OptionDependency Lead="VisUSMapsFloorPlans"/>
+			</Option>
+			<Option Id="VisNetwork_PRO" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VisMNetwork_PRO"/>
+				<OptionDependency Lead="VisUSNetwork_PRO"/>
+			</Option>
+			<Option Id="VisSchedules" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VisMSchedules"/>
+				<OptionDependency Lead="VisUSSchedules"/>
+			</Option>
+			<Option Id="VisSoftwareDatabase" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VisMSoftwareDatabase"/>
+				<OptionDependency Lead="VisUSSoftwareDatabase"/>
+			</Option>
+		</Option>
+	</Option>
+	<PackageRef Path="VisioMUI.xml"/>
+	<LocalCache DownloadCode="{90120000-0054-0409-0000-0000000FF1CE}" SkuComponentDirectory="Visio.en-us">
+		<File Id="VisioMUI.xml" MD5="BBE3F89963A06725C3AD47ED96FB2F11" Size="8962" RelativeCachePath="VisioMUI.xml" RelativeSourcePath="VisioMUI.xml"/>
+		<File Id="VisioMUI.msi" MD5="507073D34EABA0A90A12E54A3F098F71" Size="1935360" RelativeCachePath="VisioMUI.msi" RelativeSourcePath="VisioMUI.msi"/>
+		<File Id="VisioLR.cab" MD5="33055AED735D4D7A6B37B056C5927138" Size="50823036" RelativeCachePath="VisioLR.cab" RelativeSourcePath="VisioLR.cab"/>
+		<File Id="Setup.xml" MD5="" Size="" RelativeCachePath="Setup.xml" RelativeSourcePath="Setup.xml"/>
+	</LocalCache>
+</Setup>

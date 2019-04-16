@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_SIG=htawfgxgii5+o0Shy5dERR5GaCAM7dsk6QHBPVNxNYsjDeWMpQkt3FztbOLP036RQDEM9iKauDpoZwPwPljCcXGGEqIPYXHWwc3y44dCTqYmvV+Xu1aFp13MXYnadedIONLCe3NKM+7OtPM0VKGJU8Rp2xpjezkd5cs1KRe5iwM=-->
+<Package Id="Office64WW" Type="MSI" Path="Office64WW.MSI" Version="1.0" ProductCode="{90120000-002A-0000-1000-0000000FF1CE}" MSIVersion="12.0.4518.1014" Platform="x64" LocalizationTransform="ShellUI">
+	<Feature Id="WAC_XmlEditVerb64FPAC" Cost="0">
+		<OptionRef Id="WAC_XmlEditVerb64FPAC"/>
+	</Feature>
+	<Feature Id="MsoInstalledPackagesScoped" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="OfficeExample64bitFilesA" Cost="78">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="SetupXmlFiles" Cost="2310">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="SetupControllerFiles" Cost="2310">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="PPTXmlEditVerb64" Cost="0">
+		<OptionRef Id="PPTXmlEditVerb64"/>
+	</Feature>
+	<Feature Id="SearchFilters64Files" Cost="1734776">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="XDocsXmlEditVerb64" Cost="0">
+		<OptionRef Id="XDocsXmlEditVerb64"/>
+	</Feature>
+	<Feature Id="WAC_XmlEditVerb64SPD" Cost="0">
+		<OptionRef Id="WAC_XmlEditVerb64SPD"/>
+	</Feature>
+	<Feature Id="WAC_XmlEditVerb64EWD" Cost="0">
+		<OptionRef Id="WAC_XmlEditVerb64EWD"/>
+	</Feature>
+	<Feature Id="Gimme_OnDemandData" Cost="0">
+		<OptionRef Id="Gimme_OnDemandData"/>
+	</Feature>
+	<Feature Id="ProductNonBootFiles64" Cost="2806120">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="ExcelXmlEditVerb64" Cost="0">
+		<OptionRef Id="ExcelXmlEditVerb64"/>
+	</Feature>
+	<Feature Id="ProductFiles64" Cost="12886410">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="OneNote64Files" Cost="546104">
+		<OptionRef Id="OneNoteFiles"/>
+	</Feature>
+	<Feature Id="WordXmlEditVerb64" Cost="0">
+		<OptionRef Id="WordXmlEditVerb64"/>
+	</Feature>
+	<Feature Id="MsoCommonShellHandler64bit" Cost="1602696">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="OfficeExample64bitFilesB" Cost="78">
+		<OptionRef Id="TOOLSFiles"/>
+	</Feature>
+	<Feature Id="Visio64Files" Cost="483632">
+		<OptionRef Id="Visio64Files"/>
+	</Feature>
+</Package>
