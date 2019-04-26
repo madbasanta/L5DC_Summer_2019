@@ -1,0 +1,367 @@
+
+	
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Turnitin, LLC" />
+    <meta name="keywords" content="" /> 
+    <meta name="description" content="" />
+    <meta name="viewport" content="width = initial-scale" />
+    <meta name="viewport" content="height = initial-scale" />
+    
+<title>TurnitinUK Originality Report</title>
+
+<base href="http://www.turnitinuk.com">
+<style type="text/css">
+	
+body	{
+	color: #000;
+	background: #ddd;
+	padding: 0;
+	border: 0;
+	font: 14px Arial, Verdana, sans-serif;
+	margin: 0;
+	text-align: center;
+	}
+	
+form	{
+	padding: 0;
+	margin: 0;
+	}
+	
+p	{
+	padding: .8em 1.5em;
+	margin: 0;
+	text-align: left;
+	}
+	
+img	{
+	border: 0;
+	padding: 0;
+	}
+
+div	{
+	padding: 0;
+	border: 0;
+	text-align: left;
+	}
+	
+strong	{
+	font-weight: bold;
+	}
+	
+h2	{
+	font-size: 15px;
+	margin: 20px 0 10px 20px;
+	}
+	
+a:link, a:visited	{
+	text-decoration: underline;
+	color: #00f;
+	}
+	
+a:hover, a:active	{
+	text-decoration: underline;
+	color: #888;
+	}
+	
+img#logo	{
+	float: right;
+	padding-right: 20px;
+	padding-top: 10px;
+	}
+	
+div#container	{
+	border: 1px solid #aaa;
+	width: 770px;
+	margin: 20px auto;
+	background: #fff;
+	padding: 10px 0;
+	}
+	
+div#top	{
+	background: #fff;
+	width: 7in;
+	margin: auto;
+	padding-bottom: 15px;
+	}
+	
+div#content	{
+	background: #fff;
+	}
+	
+#top p	{
+	padding: .3em 0 .3em 20px;
+	}
+
+#top span	{
+	padding-right: 35px;
+	}
+	
+#top p#orig	{
+	padding-top: 15px;
+	}
+	
+#orig span#score.red	{
+	border-right: 18px solid red;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+#orig span#score.orange	{
+	border-right: 18px solid orange;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+#orig span#score.yellow	{
+	border-right: 18px solid yellow;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+#orig span#score.green	{
+	border-right: 18px solid green;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+#orig span#score.blue	{
+	border-right: 18px solid blue;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+div.divider	{
+	width: 7in;
+	border: 1px dotted #888;
+	margin: auto;
+	padding: 4px 0 4px 10px;
+	font-weight: bold;
+	background: #ddd;
+	font-size: 15px;
+	}
+	
+div.links	{
+	width: 7in;
+	margin: auto;
+	}
+	
+.links div	{
+	padding: 15px 20px 15px 20px;
+	border-bottom: 1px dotted #888;
+	}
+	
+.links div#last	{
+	padding: 15px 20px 20px 20px;
+	border-bottom: 0;
+	}
+	
+div.number	{
+	float: right;
+	background: white;
+	border: 1px solid #888;
+	margin: 0 0 0 20px;
+	padding: .1em .5em;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+	}
+	
+div.number-l	{
+	float: left;
+	background: white;
+	border: 1px solid #888;
+	margin: 6px 16px 10px 0;
+	padding: .1em .5em;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+	}
+	
+.links div p	{
+	padding: .2em 1.5em .4em 0;
+	}
+	
+.links div p#mess	{
+	padding: .2em 1.5em 0 0;
+	}
+	
+div#body	{
+	line-height: 1.5em;
+	width: 7in;
+	margin: auto;
+	padding-bottom: 20px;
+	}
+	
+#body p	{
+	color: #555;
+	padding-top: 30px;
+	line-height: 20px;
+	}
+
+	
+#body a	{
+	display: block;
+	color: red;
+	margin: 1em 3em;
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding: 1em 1em;
+	border: 1px dotted #888;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	line-height: 26px;
+	background: #FFFFE5;
+	}
+
+#body span	{
+	color: #555;
+	font-weight: normal;
+	font-size: 14px;
+	}
+
+#body span.number	{
+	display: block;
+	float: right;
+	color: #000;
+	font-weight: normal;
+	border: 1px solid #888;
+	padding: 0 6px;
+	font-weight: bold;
+	margin-left: 15px;
+	font-size: .9em;
+	background: #fff;
+	}
+	
+#actions	{
+	display: none;
+	}
+
+</style>
+
+
+
+</head>
+
+<body id="or_print_report">
+
+
+<div id="container">
+
+<div id="top">
+    <div id="content">
+        <!-- ######### Top Body  ##########################--> 
+        <div id="top_body">
+            <p id="title">
+            <img src="/r/build/images/814a4152b3aca062da5c4bcdcd07c82ecb_tiiuklogo.gif" id="logo" width="60">
+            TurnitinUK Originality Report
+            </p>
+                <div class="general_info">
+                    <p>
+                        <span>00168829_Basanta_Tajpuriya_DW</span>
+                        
+                        by Basanta Tajpuriya
+                        
+                    </p>
+                    <p>
+                        From Dynamic Websites (L5DC 23 A)
+                    </p>
+                    <ul>
+                        <li>Processed on 25-Apr-2019  7:47 PM BST</li>
+                        <li>ID: 105370764</li>
+                        <li>Word Count: 1964</li>
+                    </ul>
+                </div>
+                <div class="similarity_box">
+                    <div class="overall_similarity">
+                        <div class="color_box green">&nbsp;</div>
+                        <div class="similarity_title">Similarity Index</div>
+                        <div class="similarity_percent">4%</div>
+                    </div>
+                    <div class="similarity_by_source">
+                        <div class="similarity_title">Similarity by Source</div>
+                        <dl>
+                            <dt>Internet&nbsp;Sources:</dt>
+                            <dd>0%</dd>
+                            <div class="clear"></div>
+                            <dt>Publications:</dt>
+                            <dd>0%</dd>
+                            <div class="clear"></div>
+                            <dt>Student&nbsp;Papers:</dt>
+                            <dd>4%</dd>
+                            <div class="clear"></div>
+                        </dl>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                                 
+        </div>
+        <!-- ######### END Top Body  ##########################--> 
+    </div>
+</div>
+
+<div class="divider">sources:</div>
+
+<div class="links">
+
+	<div>
+	<div class="number-l">1</div>
+	<p>2% match (student papers from 17-Jan-2018)</p>
+
+	<a style="color:red" href="/paperInfo.asp?r=69.7101496187578&svr=329&lang=en_us&oid=oid:2:81913186&perc=2">Submitted to Softwarica College of IT & E-Commerce on 2018-01-17</a>
+
+	</div>
+	<div>
+	<div class="number-l">2</div>
+	<p>1% match (student papers from 08-Jul-2017)</p>
+
+	<a style="color:green" href="/paperInfo.asp?r=69.7101496187578&svr=329&lang=en_us&oid=oid:2:74366321&perc=1">Submitted to Softwarica College of IT & E-Commerce on 2017-07-08</a>
+
+	</div>
+	<div id="last">
+	<div class="number-l">3</div>
+	<p>1% match (student papers from 20-Apr-2018)</p>
+
+	<a style="color:blue" href="/paperInfo.asp?r=69.7101496187578&svr=329&lang=en_us&oid=oid:2:86935268&perc=1">Submitted to Softwarica College of IT & E-Commerce on 2018-04-20</a>
+
+	</div>
+
+</div>
+
+
+
+<div class="divider">paper text:</div>
+<div id="body">
+Introduction Curious Cybersecurity are research-based company which produce press release and provide training to companies about making strong defense system against phishing attacks. The main view of the company is to develop anti-phishing filtering solutions to strengthen cybersecurity defenses. Therefore, a web enabled application is created for the company from where people can register and book training sessions provided by the company. The website is created using combination of PHP, MySQL, HTML and JavaScript <a href="javascript:openDSC(86935268, 2, '324');" onmouseover="doRollover(3);" onmouseout="undoRollover(3);" id="324" name="3" style="color:blue" class="blue"><span class="b-ref">3</span>for the application design and XAMPP is used<span> for </span>local server</a> as well as for MySQL local database server. <a href="javascript:openDSC(86935268, 2, '326');" onmouseover="doRollover(3);" onmouseout="undoRollover(3);" id="326" name="3" style="color:blue" class="blue"><span class="b-ref">3</span>Sublime Text 3 is used as text editor. TASK 1. Setup page<span> will </span>create the database in local<span> php </span>server</a> as well as all the tables in the database. Database is filled with 5 tables i.e. users, address, events, user_interests and bookings. Setup page is connected to the server and can be accessed by “localhost:8000/setup” after the local host started in 8000 port. Setup page will ask for authentication key, that is “password”. Figure 1 Setup page, creating and selecting database for setup Figure 2 Setup page, creating users table in database Figure 3 Setup page, inserting admin user into user table Figure 4 Setup page, creating address table in database Figure 5 Setup page, inserting sample data into address table Figure 6 Setup page, creating events table in database Figure 7 Setup page, inserting data into events table Figure 8 Setup page, creating user_interests table into database Figure 9 Setup page, creating bookings table into database Figure 10 Setup Page, inserting sample data into bookings table Figure 11 Setup page, creating services table into database Figure 12 Code structure of Model <a href="javascript:openDSC(81913186, 2, '32');" onmouseover="doRollover(1);" onmouseout="undoRollover(1);" id="32" name="1" style="color:red" class="red"><span class="b-ref">1</span>class Figure 13 Code<span> structure </span>of<span> BaseModel </span>class Figure 14 Code<span> structure </span>of<span> BaseModel </span>class Figure 15 Code<span> structure </span>of<span> BaseModel </span>class Figure 16 Code<span> structure </span>of<span> BaseModel </span>class<span> Figure 17 </span>Code<span> structure </span>of<span> BaseModel </span>class Figure<span> 18 </span>Code<span> structure </span>of<span> BaseModel </span>class Figure<span> 19 </span>Code<span> structure </span>of<span> BaseModel </span>class Figure<span> 20 </span>Code<span> structure </span>of<span> BaseModel </span>class Figure<span> 21 </span>Code<span> structure </span>of<span> BaseModel </span>class</a> Figure 22 Code structure of QueryBuilder <a href="javascript:openDSC(74366321, 2, '688');" onmouseover="doRollover(2);" onmouseout="undoRollover(2);" id="688" name="2" style="color:green" class="green"><span class="b-ref">2</span>class Figure<span> 23 </span>Code<span> structure </span>of<span> QueryBuilder </span>class Figure<span> 24 </span>Code<span> structure </span>of<span> QueryBuilder </span>class Figure<span> 25 </span>Code<span> structure </span>of<span> QueryBuilder </span>class Figure<span> 26 </span>Code<span> structure </span>of<span> QueryBuilder </span>class Figure<span> 27 </span>Code<span> structure </span>of<span> QueryBuilder </span>class Figure<span> 28 </span>Code<span> structure </span>of<span> QueryBuilder </span>class Figure<span> 29 </span>Code<span> structure </span>of<span> QueryBuilder </span>class Figure<span> 30 </span>Code<span> structure </span>of<span> DB </span>class</a> TASK 2. There are two types of login system are developed in this system i.e. admin login system and general customer login system. Only general customer can register in the system but not admin user that’s because of security reasons. General customers can login as well as register in website from the same web page. Customers can attempt login up to 3 times thereafter system will block them for 3minustes. After 3 minutes they can retry login with right credentials. Admin login page is separate from general customer login page but can be logged in from there too. Admin email: basanta@gmail.com password: Password@1 Figure 31 Admin login form in browser Figure 32 Admin login form in html code Figure 33 Customer login form in browser Figure 34 Customer login form in html code Figure 35 Customer login attempt tracking with jQuery Figure 36 Customer login attempt tracking with jQuery Figure 37 Login code in php Figure 38 Customer registration form in browser Figure 39 Customer registration form in html code Figure 40 Customer registration form in html code Figure 41 Customer registration form in html code Figure 42 Customer registration form in html code Figure 43 Customer registration php code Figure 44 Customer data after registration TASK 3. Once the customers are registered and logged on, they can access their registration record by going to their profile. Furthermore, they can edit their registration record from profile page as well as can customize their interested categories respectively. For booking training sessions customers must be logged in otherwise they will be redirected to sign in / sign up page. Once they are logged in, they can make booking from location page. Customers can download research papers i.e. uploaded by the company as a regular update in service section but they must accept privacy policy before downloading the file from the website. Figure 45 User profile, registration record of customers Figure 46 User profile, registration record of customers Figure 47 User profile, registration record of customers Figure 48 User profile, registration record of customers Figure 49 User profile, script of taking action to change customer's interests Figure 50 Profile, registration record of customer in browser Figure 51 Profile, registration record display function Figure 52 Training session booking form Figure 53 Training session booking form Figure 54 Training session booking form Figure 55 Location page, training session booking form in browser Figure 56 Booking, training session booking php code Figure 57 Privacy policy pop up before continuing download Figure 58 Download success after agreeing privacy policy TASK 4. For better users experience the web application can be accessed through both desktop and mobile devices. Responsive navigation is added to the top of the page as well as a micro header with contact email address and social media icons as well as sign in / sin up buttons. Social media icons disappear in mobile view. The website contains a terms and condition message which should be agreed by the customers while registering to the website and surfing more functionalities. The fact that website uses cookies, customers will be notified by a cookie uses message with a single agree button. These days customers use so may social medias, therefore social media icons with links are placed in micro header at the top and footer at the bottom. Social media icons disappear from micro header while customers are in mobile view but not from footer. The website has striking landing page with an image slider and clean background for better user interface. The landing page consists brief introduction of the company and responsive navigation bar as well as clean footer with helpful links and social media icons. Figure 59 Micro header component Figure 60 Micro header component Figure 61 Header component with responsive navigation Figure 62 Header component with responsive navigation Figure 63 Header Component with search dropdown button Figure 64 Index page, image slider component Figure 65 Index page html code top section Figure 66 Index page brief intro of company Figure 67 Index page, "Get Started" form Figure 68 Index page, "In the news" component Figure 69 Index page, "Awards" component Figure 70 Index page, "Press Release" component Figure 71 Index Page, "Get Started" jQuery script Figure 72 Index page, "Get Started" jQuery script Figure 73 Index page, "Get Started" jQuery script Figure 74 Index page, "Get Started" Terms &amp; condition message with custom jQuery ajax function Figure 75 Footer Component with social media icons Figure 76 Footer component with cookie accept and agree message Figure 77 Footer component cookie accept message toggler with jQuery Figure 78 Contact page html top section Figure 79 Contact form in contact us page Figure 80 Contact us page, contact form Figure 81 Home page in desktop view Figure 82 Contact us page in desktop view Figure 83 Home page in mobile view i.e. pixel device Figure 84 Contact us page in mobile view i.e. pixel device Figure 85 Terms and condition agree message Figure 86 Cookie message with agree button Figure 87 Social media icons at top i.e. micro header Figure 88 Social media icons at footer Figure 89 Lading page i.e. home page with an image slider Figure 90 Landing page i.e. home page with next image in image slider TASK 5. Once the customers are registered with their personal information, they can preview their information from profile page and can go to edit information page directly from the profile view. Thus, they can update their information and can also remove optional information. Screenshots of profile view is already mentioned in TASK 3. Figure 91 Edit form display function Figure 92 Edit form top section Figure 93 Edit form, first name and last name field Figure 94 Edit form, email and phone field Figure 95 Edit form, business name and job title Figure 96 Edit form, profile image and change password option Figure 97 Edit form, new password and confirm password field Figure 98 Edit form, terms and condition agree button and update info button Figure 99 Edit form in browser with input fields Figure 100 Edit form, only show and enable new password and confirm pass word if option is checked Figure 101 Edit form submit code php Figure 102 Edit form data validation in php TASK 6. Customer registration number generator basically generates 6 digits numbers with the prefix CUR in it as required for the company. Each time number get increased by one while registering. Figure 103 6 digits customer registration number sample from database Figure 104 Customer registration number generator function Figure 105 Uses of customer registering number while registering customer TASK 7. 1.) I have learnt to create a proper dynamic website using PHP, MySQL, HTML, JavaScript, jQuery and Bootstrap. Most importantly handling http requests and manipulation of database table using php are more interesting part of learning. Likewise, designing the website with nice color combination in user’s perspective, giving it a proper look, which is not boring for customers is very difficult and interesting part. Integrating google map, which is quite simple but very much helpful for contact address. Furthermore, I have learnt handling cookie jobs and php sessions for more handy functions as well as importantly creating bookings of particular sessions. Editing registration record 2.) Since the website can provide services such as video and audio contents, the website is already quite accessible for disabled users. To make the website handier and more accessible for disabled users we can integrate following features: ? Using alt tag on images to describe the image in brief ? Providing subtitles with videos will help those with ear disability or language problem ? Using less color and appropriate color combination for color blindness ? Including accessibility guides of surfing the website can help all ? Animations for quick help where they can take action and use the features ? Typography as larger fonts for those with eye disability. 3.) For me the most difficult part of this system was to make booking of trainings sessions. For which events must be inserted before booking in the database through the system and customers must be registered and logged on before making any training session bookings. Creating bookings in database in a secure way with php is just next level. Secondly making the website accessible for disabled users which is uploading audio and video file with the services that are provided by the company and make those files downloadable later by the customers once they agree to company privacy policy. Lastly, generating unique customer registration number for each customer using php was quite challenging but eventually got the job done. 4.) For those difficulties I had to consult with tutor about the confusions I had before. I searched so many things in internet, thanks to those kind people whose blogs and code helped me during the development of system. I learnt using php to manipulate with MySQL for data insert/read/update/delete in database in secure way i.e. prevention from SQL Injection and more about php functions to generate unique id with prefix and work in object-oriented way. I have learnt file uploading with form and with jQuery ajax as well as downloading those files from the browser to local computer. Likewise, I had to learn form validation for security and prevent unnecessary data inserting into database. I had to learn about cookie and its uses as well as php session for authentication of logged on user. Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment Basanta Tajpuriya DW Assignment 
+</div>
+</div>
+</body>
+</html>

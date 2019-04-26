@@ -1,0 +1,26 @@
+C:\Users\Dell\source\repos\sudokugenerator\sudokugenerator\obj\Debug\sudokugenerator.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\sudokugenerator\sudokugenerator\obj\Debug\sudokugenerator.Properties.Resources.resources
+C:\Users\Dell\source\repos\sudokugenerator\sudokugenerator\obj\Debug\sudokugenerator.csproj.GenerateResource.cache
+C:\Users\Dell\source\repos\sudokugenerator\sudokugenerator\obj\Debug\sudokugenerator.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\sudokugenerator\sudokugenerator\obj\Debug\sudokugenerator.View_controller.sudoku.resources
+C:\Users\Dell\source\repos\sudokugenerator\sudokugenerator\bin\Debug\sudokugenerator.exe.config
+C:\Users\Dell\source\repos\sudokugenerator\sudokugenerator\bin\Debug\sudokugenerator.exe
+C:\Users\Dell\source\repos\sudokugenerator\sudokugenerator\bin\Debug\sudokugenerator.pdb
+C:\Users\Dell\source\repos\sudokugenerator\sudokugenerator\obj\Debug\sudokugenerator.exe
+C:\Users\Dell\source\repos\sudokugenerator\sudokugenerator\obj\Debug\sudokugenerator.pdb
+C:\Users\Dell\source\repos\sudokugenerator\sudokugenerator\obj\Debug\sudokugenerator.login.resources
+C:\Users\Dell\source\repos\sudokugenerator\sudokugenerator\obj\Debug\sudokugenerator.Register.resources
+C:\Users\Dell\source\repos\sudokugenerator\sudokugenerator\obj\Debug\sudokugenerator.sudokuboards.resources
+C:\Users\Hactivist\Desktop\New folder\sudokugenerator\sudokugenerator\bin\Debug\sudokugenerator.exe.config
+C:\Users\Hactivist\Desktop\New folder\sudokugenerator\sudokugenerator\bin\Debug\sudokugenerator.exe
+C:\Users\Hactivist\Desktop\New folder\sudokugenerator\sudokugenerator\bin\Debug\sudokugenerator.pdb
+C:\Users\Hactivist\Desktop\New folder\sudokugenerator\sudokugenerator\obj\Debug\sudokugenerator.csprojAssemblyReference.cache
+C:\Users\Hactivist\Desktop\New folder\sudokugenerator\sudokugenerator\obj\Debug\sudokugenerator.Properties.Resources.resources
+C:\Users\Hactivist\Desktop\New folder\sudokugenerator\sudokugenerator\obj\Debug\sudokugenerator.login.resources
+C:\Users\Hactivist\Desktop\New folder\sudokugenerator\sudokugenerator\obj\Debug\sudokugenerator.Register.resources
+C:\Users\Hactivist\Desktop\New folder\sudokugenerator\sudokugenerator\obj\Debug\sudokugenerator.View_controller.sudoku.resources
+C:\Users\Hactivist\Desktop\New folder\sudokugenerator\sudokugenerator\obj\Debug\sudokugenerator.sudokuboards.resources
+C:\Users\Hactivist\Desktop\New folder\sudokugenerator\sudokugenerator\obj\Debug\sudokugenerator.csproj.GenerateResource.cache
+C:\Users\Hactivist\Desktop\New folder\sudokugenerator\sudokugenerator\obj\Debug\sudokugenerator.csproj.CoreCompileInputs.cache
+C:\Users\Hactivist\Desktop\New folder\sudokugenerator\sudokugenerator\obj\Debug\sudokugenerator.exe
+C:\Users\Hactivist\Desktop\New folder\sudokugenerator\sudokugenerator\obj\Debug\sudokugenerator.pdb

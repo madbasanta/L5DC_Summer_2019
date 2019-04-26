@@ -1,0 +1,353 @@
+
+	
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Turnitin, LLC" />
+    <meta name="keywords" content="" /> 
+    <meta name="description" content="" />
+    <meta name="viewport" content="width = initial-scale" />
+    <meta name="viewport" content="height = initial-scale" />
+    
+<title>TurnitinUK Originality Report</title>
+
+<base href="http://www.turnitinuk.com">
+<style type="text/css">
+	
+body	{
+	color: #000;
+	background: #ddd;
+	padding: 0;
+	border: 0;
+	font: 14px Arial, Verdana, sans-serif;
+	margin: 0;
+	text-align: center;
+	}
+	
+form	{
+	padding: 0;
+	margin: 0;
+	}
+	
+p	{
+	padding: .8em 1.5em;
+	margin: 0;
+	text-align: left;
+	}
+	
+img	{
+	border: 0;
+	padding: 0;
+	}
+
+div	{
+	padding: 0;
+	border: 0;
+	text-align: left;
+	}
+	
+strong	{
+	font-weight: bold;
+	}
+	
+h2	{
+	font-size: 15px;
+	margin: 20px 0 10px 20px;
+	}
+	
+a:link, a:visited	{
+	text-decoration: underline;
+	color: #00f;
+	}
+	
+a:hover, a:active	{
+	text-decoration: underline;
+	color: #888;
+	}
+	
+img#logo	{
+	float: right;
+	padding-right: 20px;
+	padding-top: 10px;
+	}
+	
+div#container	{
+	border: 1px solid #aaa;
+	width: 770px;
+	margin: 20px auto;
+	background: #fff;
+	padding: 10px 0;
+	}
+	
+div#top	{
+	background: #fff;
+	width: 7in;
+	margin: auto;
+	padding-bottom: 15px;
+	}
+	
+div#content	{
+	background: #fff;
+	}
+	
+#top p	{
+	padding: .3em 0 .3em 20px;
+	}
+
+#top span	{
+	padding-right: 35px;
+	}
+	
+#top p#orig	{
+	padding-top: 15px;
+	}
+	
+#orig span#score.red	{
+	border-right: 18px solid red;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+#orig span#score.orange	{
+	border-right: 18px solid orange;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+#orig span#score.yellow	{
+	border-right: 18px solid yellow;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+#orig span#score.green	{
+	border-right: 18px solid green;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+#orig span#score.blue	{
+	border-right: 18px solid blue;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+div.divider	{
+	width: 7in;
+	border: 1px dotted #888;
+	margin: auto;
+	padding: 4px 0 4px 10px;
+	font-weight: bold;
+	background: #ddd;
+	font-size: 15px;
+	}
+	
+div.links	{
+	width: 7in;
+	margin: auto;
+	}
+	
+.links div	{
+	padding: 15px 20px 15px 20px;
+	border-bottom: 1px dotted #888;
+	}
+	
+.links div#last	{
+	padding: 15px 20px 20px 20px;
+	border-bottom: 0;
+	}
+	
+div.number	{
+	float: right;
+	background: white;
+	border: 1px solid #888;
+	margin: 0 0 0 20px;
+	padding: .1em .5em;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+	}
+	
+div.number-l	{
+	float: left;
+	background: white;
+	border: 1px solid #888;
+	margin: 6px 16px 10px 0;
+	padding: .1em .5em;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+	}
+	
+.links div p	{
+	padding: .2em 1.5em .4em 0;
+	}
+	
+.links div p#mess	{
+	padding: .2em 1.5em 0 0;
+	}
+	
+div#body	{
+	line-height: 1.5em;
+	width: 7in;
+	margin: auto;
+	padding-bottom: 20px;
+	}
+	
+#body p	{
+	color: #555;
+	padding-top: 30px;
+	line-height: 20px;
+	}
+
+	
+#body a	{
+	display: block;
+	color: red;
+	margin: 1em 3em;
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding: 1em 1em;
+	border: 1px dotted #888;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	line-height: 26px;
+	background: #FFFFE5;
+	}
+
+#body span	{
+	color: #555;
+	font-weight: normal;
+	font-size: 14px;
+	}
+
+#body span.number	{
+	display: block;
+	float: right;
+	color: #000;
+	font-weight: normal;
+	border: 1px solid #888;
+	padding: 0 6px;
+	font-weight: bold;
+	margin-left: 15px;
+	font-size: .9em;
+	background: #fff;
+	}
+	
+#actions	{
+	display: none;
+	}
+
+</style>
+
+
+
+</head>
+
+<body id="or_print_report">
+
+
+<div id="container">
+
+<div id="top">
+    <div id="content">
+        <!-- ######### Top Body  ##########################--> 
+        <div id="top_body">
+            <p id="title">
+            <img src="/r/build/images/814a4152b3aca062da5c4bcdcd07c82ecb_tiiuklogo.gif" id="logo" width="60">
+            TurnitinUK Originality Report
+            </p>
+                <div class="general_info">
+                    <p>
+                        <span>00168829_Basanta_Tajpuriya_NSC</span>
+                        
+                        by Basanta Tajpuriya
+                        
+                    </p>
+                    <p>
+                        From Network Security and Cryptography (L5DC 23 A)
+                    </p>
+                    <ul>
+                        <li>Processed on 25-Apr-2019  7:25 PM BST</li>
+                        <li>ID: 105369348</li>
+                        <li>Word Count: 1979</li>
+                    </ul>
+                </div>
+                <div class="similarity_box">
+                    <div class="overall_similarity">
+                        <div class="color_box green">&nbsp;</div>
+                        <div class="similarity_title">Similarity Index</div>
+                        <div class="similarity_percent">16%</div>
+                    </div>
+                    <div class="similarity_by_source">
+                        <div class="similarity_title">Similarity by Source</div>
+                        <dl>
+                            <dt>Internet&nbsp;Sources:</dt>
+                            <dd>0%</dd>
+                            <div class="clear"></div>
+                            <dt>Publications:</dt>
+                            <dd>0%</dd>
+                            <div class="clear"></div>
+                            <dt>Student&nbsp;Papers:</dt>
+                            <dd>16%</dd>
+                            <div class="clear"></div>
+                        </dl>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                                 
+        </div>
+        <!-- ######### END Top Body  ##########################--> 
+    </div>
+</div>
+
+<div class="divider">sources:</div>
+
+<div class="links">
+
+	<div id="last">
+	<div class="number-l">1</div>
+	<p>16% match (student papers from 14-Jan-2019)</p>
+
+	<a style="color:red" href="/paperInfo.asp?r=76.0826531030546&svr=332&lang=en_us&oid=oid:2:98985090&perc=16">Submitted to Softwarica College of IT & E-Commerce on 2019-01-14</a>
+
+	</div>
+
+</div>
+
+
+
+<div class="divider">paper text:</div>
+<div id="body">
+<a href="javascript:openDSC(98985090, 2, '52');" onmouseover="doRollover(1);" onmouseout="undoRollover(1);" id="52" name="1" style="color:red" class="red"><span class="b-ref">1</span>Table of Contents Introduction............................................................................................................................................ 2 TASK 1 ................................................................................................................................................... 2 TASK 2 ..................................................................................................................................................... 4 TASK 3 ..................................................................................................................................................... 6 TASK 4 ..................................................................................................................................................... 8 TASK 5 ..................................................................................................................................................... 8 Conclusion ............................................................................................................................................... 8 Introduction</a> Escape is a privately-owned Holistic retreat established in 2002 and is currently booming with significant amount of increase in workforce. The manager is pleased with the growth but feels uncomfortable about security. Due to increase in cyberattacks, the company now needs a redesign with good security measures taken. TASK 1 a) It is crucial to preserve and secure the data inside a company. Whether it is digital or not, the data needs to be rightfully protected. Below are some of the digital data that needs special attention. i) Financial System Information Customers very important financial data are stored in the server. It could be credit card details, transactions, contact information and other volatile data that are sensitive and should be kept absolute confidential. ii) Network Folders Network folders contain committee minutes, business policies, procedures and much more. This information is very critical and should be secured carefully. iii) Customer Record Data It holds critical data about customer. Standard data such as name, order data, billing information and interaction information being an integral part of them. iv) Human Resource Information These data are often used to improve decisions, optimize business and make employees happier. It is something that adds value to the company. If breached by competitor company, the may use it for their own advantage. v) Learning Management System (LMS) and marketing website In a market surviving the competition is hard. LMS comprises of information for making the employees be competitive and professional. With this information in competitors’ hand can lead to the downfall of the company. Such applies with the marketing website as well. <a href="javascript:openDSC(98985090, 2, '53');" onmouseover="doRollover(1);" onmouseout="undoRollover(1);" id="53" name="1" style="color:red" class="red"><span class="b-ref">1</span>b) Below are the security threats that can be addressed for the following assets. Asset Threat CIA Likelihood Impact Risk Financial System</a> Employee Theft CI Low High Medium Information Scanning Vulnerabilities and exploiting <a href="javascript:openDSC(98985090, 2, '62');" onmouseover="doRollover(1);" onmouseout="undoRollover(1);" id="62" name="1" style="color:red" class="red"><span class="b-ref">1</span>CIA Low High Medium SQL Injection<span> CIA </span>Medium High Medium<span> Network Folders </span>Man in the middle attack CI Medium High Medium Employee Theft<span> CI </span>Medium High Medium</a> Distributed Denial of Service <a href="javascript:openDSC(98985090, 2, '67');" onmouseover="doRollover(1);" onmouseout="undoRollover(1);" id="67" name="1" style="color:red" class="red"><span class="b-ref">1</span>A Low Medium Low<span> Customer Record </span>Employee Theft<span> CI High </span>Medium Medium</a> Data Scanning Vulnerabilities and exploiting CIA Low High Medium <a href="javascript:openDSC(98985090, 2, '71');" onmouseover="doRollover(1);" onmouseout="undoRollover(1);" id="71" name="1" style="color:red" class="red"><span class="b-ref">1</span>Human Resource Information Employee Theft<span> CI </span>Medium High Medium<span> Marketing website </span><span>&amp;</span><span> LMS </span>Distributed Denial of Service A<span> Low </span>Medium<span> Low </span>Server Failure A Low Medium Low TASK 2 a) The<span> presented </span>threat<span> to the assets </span>can be<span> avoided using </span>the following<span> measures. </span>External<span> One of </span>the toughest<span> threats </span>to<span> avoid </span>is DDOS<span> attack. Acronym for </span>Distributed Denial of Service, here<span> the attacker produces </span>an immense<span> number </span>of<span> requests </span>from</a> multiple sources; more than enough request that the server cannot process, consequently, shutting down the server. Marketing website is vulnerable to it as it globally accessible. The financial data that are stored is susceptible to SQL injection. SQL injection is a type of attack that plays with the database queries, modifies it and cracks it. Confidential financial data can be fetched through this attack. With the growing age of internet, spywares and spams are a common thing now. With the vast internet, employees are unaware of many software, plugins, extensions and others that may cause threat to the system. Resolution Marketing website should use free ‘proxy servers’ like Cloudflare to prevent against DDOS attacks. Proxy server absorb all the heat generated saving the main server hosting the website. Cloudflare does the job with zero charges. Talking about the financial system, one way to protect it is by making the fundamentals strong i.e. using strong statements in the software. But of course, that is not enough. An additional firewall is a must add. Upon purchasing appropriate licenses, it can work as proxy, IPS, anti-spyware, anti-virus and much more. Access list in the firewall can be written to prevent unauthorized access. Proxy server in the firewall is handy to prevent against SQL attacks. Spams can be eliminated to certain extent by raising the DMARC, DKIM and SPF values in the values. Also, a brief training should also be given to the staffs. System All the information is stored in server. Once it goes down, the availability is absent. Due to it the productivity of the company can significantly reduce. Resolution In the server, all the information is stored in drives; hard drives, tape drives, solid state drive or other. Once the drive fails, all the information is gone. So, it is important to have another drive as a redundant drive for redundancy. RAID is a fantastic invention made for it. Talking about redundancy, it applies for the whole server, fans and power as well. A regular check-up should be done for the lights of the server. Lights indicate the condition of the hardware. Back Up of data also can be done in case of any data loss. UPS system can also be added to protect against power surges and black out. Internal According to a report carried out by JYC university, about 75% of the breaches come from inside. A malware is installed by rogue employees in order to steal information. The devices can be freely accessed by the rogue employees. Customer record data, financial data and other data can be stolen. Resolution Physical access to the network devices should be blocked by implementing the use of racks and biometric security. Firewall ACLs is a must implement to block unauthorized user to access the unintended network. As the PCs of the employees are next to each other, a strong password should be configured. B and C) In today’s days and age, security is a major concern. For the purpose of maintaining integrity and confidentiality, it is mandatory to encrypt data. Encryption ciphers the data into non- understandable which can later be deciphered back into readable text when necessary. Encryptions can be used in different places such as drives, email, web browsing, Wi-Fi and storing passwords. Out of many encryption methods and protocols like AES, 3DES, two fish, WPA, WPA-2, SMTP, IMAP and many others, AES-128 is a recommended encryption protocol for storing data into the drives whereas WPA-2 and SMTP, IMAP are suitable for Wi-Fi and email encryption respectively. Securing browsing of the website can be done through HTTPS protocol. Passwords can be stored using hash function such as SHA1. Also, Wi-Fi should be encrypted with WPA-2 so that unauthorized user cannot access the internet. Encrypting the data means the data cannot be fetched by an unauthorized or cannot be understood by them. AES-128 being a strong protocol is very hard to decrypt the data. Using the right port with the SMPT and IMAP protocols fully encrypts the email send between the MTA or MUA. MTA- Mail transfer Agent ? source server transferring the mail to destination server MUA- Mail User Agent ? receives the mail from server/ MTA TASK 3 Domain Registrar Remote User CloudFlare (Proxy) Rest of The Internet ISP 1 ISP 2 Marketing Website .2 .2 103.17.8.0/30 13.7.3.0/30 .1 IP assigned by ISP .1 IP assigned by ISP Core Link Aggregation 10.160.100.1/28 10.160.200.1/28 <a href="javascript:openDSC(98985090, 2, '92');" onmouseover="doRollover(1);" onmouseout="undoRollover(1);" id="92" name="1" style="color:red" class="red"><span class="b-ref">1</span>Fault Tolerence Network: 10.160.7.0/26 10.160.7.1/26 10.160.7.2/26 Distribution Radius Server Stacked Switch</a> Network PC Access <a href="javascript:openDSC(98985090, 2, '93');" onmouseover="doRollover(1);" onmouseout="undoRollover(1);" id="93" name="1" style="color:red" class="red"><span class="b-ref">1</span>Network: 10.160.5.0/24 for internet usage Network: 10.160.2.0/23 EPOS (DHCP) Network 10.160.7.0/24 for accessing servers (manual)<span> z </span>Fig: Network Diagram</a> As addressed above, proxy server ‘Cloudflare’ has been used to protect marketing website against DDOS attack. If a user/consumer sends request to ‘escape.com’ then the domain registrar will forward the request to Cloudflare. Likewise, different features such as IPS, anti-bot, anti-virus and other blades has been enabled in the firewall. This will prevent against most of the attacks produced from the internet. For the purpose of redundancy, fault tolerance, load balancing and high availability, two of router, firewall and core switch has been added. These are the prime infrastructure of the company so two of each has been added. Networks has been separated for the staff and the visitors. Using ACLs, customers can be blocked to access the staff network or the network with the servers. Also, for the utmost security, only the 10.160.7.0 network can access the servers. DHCP server has been disabled for that network so the user has to manually set the IP to that network. Radius server has been set up for handling and controlling the access points used throughout the building. If a remote user wishes to access the server, then the user can setup a VPN in their PC and access the network using the VPN. Following rule/ACL can be added in the firewall for a good control over the network; prohibiting unauthorized access. <a href="javascript:openDSC(98985090, 2, '95');" onmouseover="doRollover(1);" onmouseout="undoRollover(1);" id="95" name="1" style="color:red" class="red"><span class="b-ref">1</span>Rule Name Source Destination Action 1 Stealth Rule 10.160.7.1/26 10.160.7.2/26 Accept 2 Stealth Rule 10.160.7.0/26 10.160.160.7.1/26 10.160.7.2/26 Accept 3 Stealth Rule Any 10.160.7.1/26 10.160.7.2/26 Drop 4 Internal Network 10.160.7.0/26 Any Accept 5 Any to Internal Network Any 10.160.7.0/26 Drop 6 Staff to others 10.160.5.0/24 Any Accept 7 Visitors to Staff 10.160.2.0/23 10.160.5.0/24 Drop 8 Visitors to internet 10.160.2.0/23 Any Accept 9 Clean Up rule Any Any Drop<span> ACL in </span>this</a> firewall tries to match the rule from top to down order. If a traffic is dropped in the first rule, it won’t live to tell the tale of what happened in another rule. The first rule ensures that the two firewalls can communicate between each other. The second rule ensures 10.160.7.0 network is allowed to access the firewall. The third rule ensures that no one is allowed to access the firewall. 10.160.7.0 is the most privileged network who is allowed to access any network. This is configured in the fourth rule. Fifth rule doesn’t allow visitors or internet to access the internal network. Sixth and eight rule allows staff and visitors to use the internet. Seventh rule drops any traffic generated from visitors to staff network. In case the traffic doesn’t match any rule, it is dropped. <a href="javascript:openDSC(98985090, 2, '97');" onmouseover="doRollover(1);" onmouseout="undoRollover(1);" id="97" name="1" style="color:red" class="red"><span class="b-ref">1</span>This rule ensures that nobody except the<span> intended </span>personnel is allowed to access the firewall or servers. The visitors can only access the internet and not the all other internal networks. Security is made strict using these rules. Also access to news server can be done via Remote Desktop Connection or VPN.</a> TASK 4 For maintaining security at the escape, following important practice can be implemented 1) Install network monitoring tools Network monitoring tools such as ‘Nagios’, ‘PRTG,’ ‘Zabbix’ can be used for monitoring traffic and resource utilization. Unusual traffic or CPU usage detection in early stage can save against potential breaches. 2) Checking firewall logs and events What kind of attacking are often occurring? From what IP and from source is the attack often generated? These things can be viewed and analysed from the logs and event. This feature is usually found in the firewall. Solution steps can be taken accordingly. 3) Filling the entry logs before entering the server room Users and staff should compulsorily fill some sort of entry form before entering the premises. 4) Update the host-based firewall regularly New threats come in the market daily. The host-based firewall in every staff should be regularly updated. 5) The password in every staff pc, wi-fi and other devices should be set to strong and should be changed regularly. TASK 5 a) There were many devices that was important to use and using it in an intended way and in a best practice was quite a challenge. So, buying less devices but purchasing appropriate license in compatible devices is the decision made. There are complex firewalls from vendors such as ‘checkpoint’, ‘Sophos’ and other. They good an excellent job working as an IPS, anti-bot, anti-virus within a single device. b) If the project could be done again, I would definitely search for the different devices that could meet the scenario. There could be cheaper alternatives for the SQL injection protection and a better cheap alternative for the alternative network design. Although the current network is very strong and meets all the security guidelines but the devices could further get merged leaning towards short yet strong network. Conclusion In this way, a very strong and redundant network architecture has been designed for Escape. All the security guidelines have been met and the best practice has been implemented. This network architecture ensures no intruder can break the network and cannot steal any sort of information whatsoever. Basanta Tajpuriya NSC Assignment Basanta Tajpuriya NSC Assignment Basanta Tajpuriya NSC Assignment Basanta Tajpuriya NSC Assignment Basanta Tajpuriya NSC Assignment Basanta Tajpuriya NSC Assignment Basanta Tajpuriya NSC Assignment Basanta Tajpuriya NSC Assignment 1 2 3 4 5 6 7 8 
+</div>
+</div>
+</body>
+</html>
