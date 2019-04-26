@@ -24,3 +24,5 @@ C:\Users\Hactivist\Desktop\New folder\sudokugenerator\sudokugenerator\obj\Debug\
 C:\Users\Hactivist\Desktop\New folder\sudokugenerator\sudokugenerator\obj\Debug\sudokugenerator.csproj.CoreCompileInputs.cache
 C:\Users\Hactivist\Desktop\New folder\sudokugenerator\sudokugenerator\obj\Debug\sudokugenerator.exe
 C:\Users\Hactivist\Desktop\New folder\sudokugenerator\sudokugenerator\obj\Debug\sudokugenerator.pdb
+D:\Assignment\L5DC_Summer_2019\adi_basanta\sudokugenerator\sudokugenerator\obj\Debug\sudokugenerator.exe
+D:\Assignment\L5DC_Summer_2019\adi_basanta\sudokugenerator\sudokugenerator\obj\Debug\sudokugenerator.pdb
